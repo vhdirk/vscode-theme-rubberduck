@@ -1,0 +1,22 @@
+{
+    "name": "rubberduck",
+    "displayName": "RubberDuck",
+    "description": "My take on Atom Light",
+    "version": "0.0.1",
+    "publisher": "vhdirk",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rubber Duck",
+                "uiTheme": "vs",
+                "path": "./themes/RubberDuck-color-theme.json"
+            }
+        ]
+    }
+}
