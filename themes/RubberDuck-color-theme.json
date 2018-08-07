@@ -679,8 +679,7 @@
     "name": "Entity Name Class,entity Name Type Class",
     "scope": [
       "entity.name.class",
-      "entity.name.type.class",
-      "entity.name.type.class.python"
+      "entity.name.type.class"
     ],
     "settings": {
       "foreground": "#606AA1",
@@ -855,13 +854,6 @@
     "scope": "support.type.property-name",
     "settings": {
       "foreground": "#383A42"
-    }
-  },
-  {
-    "name": "Punctuation for Quoted String",
-    "scope": "string.quoted.double punctuation",
-    "settings": {
-      "foreground": "#50A14F"
     }
   },
   {
@@ -1066,6 +1058,17 @@
 
   // Python
   {
+    "name": "Source Python Import Keyword",
+    "scope": [
+      "source.python keyword.control.import.python",
+      "source.python keyword.control.flow.python"
+    ],
+    "settings": {
+      "foreground": "#222222",
+      "fontStyle": "bold"
+    }
+  },
+  {
     "name": "Source Python Entity Name Class,entity Name Type Class",
     "scope": [
       "source.python entity.name.type.class.python",
@@ -1074,6 +1077,24 @@
     "settings": {
       "foreground": "#606AA1",
       "fontStyle": "underline"
+    }
+  },
+  {
+    "name": "Source Python Builtin function call",
+    "scope": [
+      "source.python meta.function-call.python support.function.builtin.python"
+    ],
+    "settings": {
+      "foreground": "#458",
+    }
+  },
+  {
+    "name": "Source Python String",
+    "scope": [
+      "source.python meta.item-access.python meta.item-access.arguments.python string.quoted.single.python"
+    ],
+    "settings": {
+      "foreground": "#D14",
     }
   },
   {
