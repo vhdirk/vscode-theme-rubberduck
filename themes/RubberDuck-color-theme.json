@@ -63,20 +63,22 @@
     // Lists and Trees
     // Colors for list and trees like the File Explorer.
     // An active list/tree has keyboard focus, an inactive does not.
-    "list.activeSelectionBackground": "#dedede",
-    "list.activeSelectionForeground": "#fff",
     // "list.dropBackground": "#f0f0f0",
-    // "list.focusBackground": "#dedede",
     // "list.focusForeground": "#333",
     // "list.highlightForeground": "#EB9D42",
-    // "list.hoverBackground": "#fff",
     // "list.hoverForeground": "#000",
-    // "list.inactiveSelectionBackground": "#dedede",
-    // "list.inactiveSelectionForeground": "#333",
     // "list.inactiveFocusBackground": "#ff0000",
     // "list.inactiveFocusForeground": "#333",
     // "list.invalidItemForeground": "#333",
-    
+    "list.activeSelectionBackground": "#DBDBDC",
+    "list.activeSelectionForeground": "#232324",
+    "list.focusBackground": "#DBDBDC",
+    "list.hoverBackground": "#DBDBDC66",
+    "list.highlightForeground": "#121417",
+    "list.inactiveSelectionBackground": "#DBDBDC",
+    "list.inactiveSelectionForeground": "#232324",
+
+
     // Activity Bar
     // The Activity Bar is displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar.
     "activityBar.background": "#FAFAFA",
@@ -206,20 +208,21 @@
     
     // Peek View Colors
     // Peek views are used to show references and declarations as a view inside the editor.
-    // "peekView.border":"#ff0000",
-    // "peekViewEditor.background":"#ff0000",
     // "peekViewEditorGutter.background":"#ff0000",
     // "peekViewEditor.matchHighlightBackground":"#ff0000",
-    // "peekViewResult.background":"#ff0000",
     // "peekViewResult.fileForeground":"#ff0000",
     // "peekViewResult.lineForeground":"#ff0000",
     // "peekViewResult.matchHighlightBackground":"#ff0000",
-    // "peekViewResult.selectionBackground":"#ff0000",
     // "peekViewResult.selectionForeground":"#ff0000",
-    // "peekViewTitle.background":"#ff0000",
     // "peekViewTitleDescription.foreground":"#ff0000",
     // "peekViewTitleLabel.foreground":"#ff0000",
-    
+    "peekView.border": "#526FFF",
+    "peekViewResult.background": "#f0f0f0",
+    "peekViewResult.selectionBackground": "#DBDBDC",
+    "peekViewTitle.background": "#FFFFFF",
+    "peekViewEditor.background": "#FFFFFF",
+
+
     // Merge Conflicts
     // Merge conflict decorations are shown when the editor contains special diff ranges.
     "merge.currentHeaderBackground": "#f66a0a",
