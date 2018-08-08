@@ -4,6 +4,7 @@
     "description": "My take on Atom Light",
     "version": "0.0.1",
     "publisher": "vhdirk",
+    "repository": "https://github.com/vhdirk/vscode-theme-rubberduck",
     "engines": {
         "vscode": "^1.25.0"
     },
