@@ -1170,7 +1170,19 @@
       "meta.attribute.rust"
     ],
     "settings": {
-      "foreground": "#606135"
+      "foreground": "#777744"
+    }
+  },
+  {
+    "name": "Source Rust Keyworkd Other Fn",
+    "scope": [
+      "source.rust keyword.other.fn.rust",
+      "source.rust keyword.other.rust",
+      "source.rust storage.modifier.visibility.rust"
+    ],
+    "settings": {
+      "foreground": "#222",
+      "fontStyle":"bold"
     }
   },
   {
