@@ -18,9 +18,10 @@ msg['Subject'] = 'The contents of %s' % textfile
 msg['From'] = me
 msg['To'] = you
 
+
 @classmethod
 def someMethod(foo):
-    someOtherMethod(1, "2",bar=foo)
+    someOtherMethod(1, "2", bar=foo)
 
 a = True
 b = 'bob'
@@ -29,20 +30,32 @@ if True or a is not False and 'b' in b:
 
 foo = list()
 
+
 @my_decorator('some_str', my_list=['str', 1])
 def my_func(args):
     pass
+
 
 const = 42
 PI = 3.14
 langConst = True
 NOTHING = None
-print '{} {!r}'.format('some string formatted', 'another\nstring')
+print('{} {!r}'.format('some string formatted', 'another\nstring'))
 
 from numpy import ndarray
 
+
 def myfun(myvar: ndarray=2):
     return 0
+
+
+class MyClass(MIMEText):
+    def __init__(self):
+        super().__init__()
+    
+    def amethod(self, some_arg: str):
+        self.some_arg = some_arg
+
 
 if __name__ is '__main__' and not None:
     pass

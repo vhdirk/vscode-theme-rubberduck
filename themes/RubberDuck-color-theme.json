@@ -264,13 +264,13 @@
     
     // Notification Dialog Colors
     // Notifications slide in from the top of the workbench.
-    "notification.background": "#fff",
-    "notification.foreground": "#333",
-    "notification.buttonBackground": "#3d82c6",
-    "notification.buttonForeground": "#fff",
-    "notification.buttonHoverBackground": "#064e93",
-    "notification.errorBackground": "#f9f2f4",
-    "notification.errorForeground": "#c7264e",
+    // "notification.background": "#fff",
+    // "notification.foreground": "#333",
+    // "notification.buttonBackground": "#3d82c6",
+    // "notification.buttonForeground": "#fff",
+    // "notification.buttonHoverBackground": "#064e93",
+    // "notification.errorBackground": "#f9f2f4",
+    // "notification.errorForeground": "#c7264e",
     
     // Extensions
     "extensionButton.prominentForeground": "#fff",
@@ -446,18 +446,18 @@
       "constant"
     ],
     "settings": {
-      "foreground": "#986801"
+      "foreground": "#606aa1"
     }
   },
-  {
-    "name": "Constant Variable",
-    "scope": [
-      "constant.variable"
-    ],
-    "settings": {
-      "foreground": "#986801"
-    }
-  },
+  // {
+  //   "name": "Constant Variable",
+  //   "scope": [
+  //     "constant.variable"
+  //   ],
+  //   "settings": {
+  //     "foreground": "#986801"
+  //   }
+  // },
   {
     "name": "Constant Character Escape",
     "scope": [
@@ -467,40 +467,38 @@
       "foreground": "#0184BC"
     }
   },
-  {
-    "name": "Constant Numeric",
-    "scope": [
-      "constant.numeric"
-    ],
-    "settings": {
-      "foreground": "#986801"
-    }
-  },
-  {
-    "name": "Constant Other Color",
-    "scope": [
-      "constant.other.color"
-    ],
-    "settings": {
-      "foreground": "#0184BC"
-    }
-  },
-  {
-    "name": "Constant Other Symbol",
-    "scope": [
-      "constant.other.symbol"
-    ],
-    "settings": {
-      "foreground": "#0184BC"
-    }
-  },
+  // {
+  //   "name": "Constant Numeric",
+  //   "scope": [
+  //     "constant.numeric"
+  //   ],
+  //   "settings": {
+  //     "foreground": "#986801"
+  //   }
+  // },
+  // {
+  //   "name": "Constant Other Color",
+  //   "scope": [
+  //     "constant.other.color"
+  //   ],
+  //   "settings": {
+  //     "foreground": "#0184BC"
+  //   }
+  // },
+  // {
+  //   "name": "Constant Other Symbol",
+  //   "scope": [
+  //     "constant.other.symbol"
+  //   ],
+  //   "settings": {
+  //     "foreground": "#0184BC"
+  //   }
+  // },
   {
     "name": "Variable",
-    "scope": [
-      "variable"
-    ],
+    "scope": "variable",
     "settings": {
-      "foreground": "#E45649"
+      "foreground": "#008080"
     }
   },
   {
@@ -828,8 +826,7 @@
       "invalid.deprecated"
     ],
     "settings": {
-      "foreground": "#000000",
-      "background": "#F2A60D"
+      "foreground": "#000000"
     }
   },
   {
@@ -838,8 +835,7 @@
       "invalid.illegal"
     ],
     "settings": {
-      "foreground": "white",
-      "background": "#FF1414"
+      "foreground": "#ffffff"
     }
   },
   {
@@ -856,13 +852,13 @@
       "foreground": "#383A42"
     }
   },
-  {
-    "name": "Support Constant",
-    "scope": "support.constant",
-    "settings": {
-      "foreground": "#986801"
-    }
-  },
+  // {
+  //   "name": "Support Constant",
+  //   "scope": "support.constant",
+  //   "settings": {
+  //     "foreground": "#986801"
+  //   }
+  // },
 
   // Markup
   {
@@ -1069,6 +1065,16 @@
     }
   },
   {
+    "name": "Source Python Keyword Operator Logical Python",
+    "scope": [
+      "source.python keyword.operator.logical.python"
+    ],
+    "settings": {
+      "foreground": "#222222",
+      "fontStyle": "bold"
+    }
+  },
+  {
     "name": "Source Python Entity Name Class,entity Name Type Class",
     "scope": [
       "source.python entity.name.type.class.python",
@@ -1091,19 +1097,11 @@
   {
     "name": "Source Python String",
     "scope": [
-      "source.python meta.item-access.python meta.item-access.arguments.python string.quoted.single.python"
+      "source.python string.quoted.single.python",
+      "source.python string.quoted.double.python",
     ],
     "settings": {
       "foreground": "#D14",
-    }
-  },
-  {
-    "name": "Source Python Keyword Operator Logical Python",
-    "scope": [
-      "source.python keyword.operator.logical.python"
-    ],
-    "settings": {
-      "foreground": "#A626A4"
     }
   },
   {
@@ -1115,20 +1113,20 @@
       "foreground": "#606AA1"
     }
   },
-  {
-    "name": "Python Constants Other",
-    "scope": "source.python constant.other",
-    "settings": {
-      "foreground": "#383A42"
-    }
-  },
-  {
-    "name": "Python Constants",
-    "scope": "source.python constant",
-    "settings": {
-      "foreground": "#986801"
-    }
-  },
+  // {
+  //   "name": "Python Constants Other",
+  //   "scope": "source.python constant.other",
+  //   "settings": {
+  //     "foreground": "#383A42"
+  //   }
+  // },
+  // {
+  //   "name": "Python Constants",
+  //   "scope": "source.python constant",
+  //   "settings": {
+  //     "foreground": "#986801"
+  //   }
+  // },
   {
     "name": "Python Placeholder Character",
     "scope": "constant.character.format.placeholder.other.python storage",
@@ -1840,15 +1838,15 @@
       "foreground": "#383A42"
     }
   },
-  {
-    "name": "Source Gfm Markup",
-    "scope": [
-      "source.gfm markup"
-    ],
-    "settings": {
-      "-webkit-font-smoothing": "auto"
-    }
-  },
+  // {
+  //   "name": "Source Gfm Markup",
+  //   "scope": [
+  //     "source.gfm markup"
+  //   ],
+  //   "settings": {
+  //     "-webkit-font-smoothing": "auto"
+  //   }
+  // },
   {
     "name": "Source Gfm Link Entity",
     "scope": [
@@ -2014,15 +2012,15 @@
   },
 
   // Ruby
-  {
-    "name": "Source Ruby Constant Other Symbol > Punctuation",
-    "scope": [
-      "source.ruby constant.other.symbol > punctuation"
-    ],
-    "settings": {
-      "foreground": "inherit"
-    }
-  },
+  // {
+  //   "name": "Source Ruby Constant Other Symbol > Punctuation",
+  //   "scope": [
+  //     "source.ruby constant.other.symbol > punctuation"
+  //   ],
+  //   "settings": {
+  //     "foreground": "inherit"
+  //   }
+  // },
   {
     "name": "Ruby Punctuation Separator Variable",
     "scope": "punctuation.separator.variable.ruby",
