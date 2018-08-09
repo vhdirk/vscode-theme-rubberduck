@@ -6,7 +6,7 @@
     
     // Refefence here: https://code.visualstudio.com/docs/getstarted/theme-color-reference
     // Base Colors
-    "focusBorder": "#526FFF",
+    "focusBorder": "#608ce4",
     "foreground": "#333",
     "widget.shadow": "#dddddd",
     "selection.background": "#696beb83",
@@ -24,9 +24,9 @@
     
     // Button Control
     // Such as the reload buttons in the extension windows
-    "button.background": "#5871EF",
+    "button.background": "#608ce4",
     "button.foreground": "#FFFFFF",
-    "button.hoverBackground": "#6B83ED",
+    "button.hoverBackground": "#6f96e6",
     
     // Dropdown Control
     // A set of colors for all dropdown widgets such as in the Integrated Terminal or the Output panel.
@@ -54,11 +54,11 @@
     "scrollbarSlider.activeBackground": "#cfcfcfee",
     
     // Badge
-    "badge.background": "#526FFF",
+    "badge.background": "#608ce4",
     "badge.foreground": "#FFFFFF",
     
     // Progress Bar
-    "progressBar.background": "#3d82c6",
+    "progressBar.background": "#608ce4",
     
     // Lists and Trees
     // Colors for list and trees like the File Explorer.
@@ -78,16 +78,14 @@
     "list.inactiveSelectionBackground": "#DBDBDC",
     "list.inactiveSelectionForeground": "#232324",
 
-
     // Activity Bar
     // The Activity Bar is displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar.
     "activityBar.background": "#FAFAFA",
     "activityBar.foreground": "#121417",
     "activityBar.dropBackground": "#fff",
     "activityBar.border": "#ddd",
-    "activityBarBadge.background": "#526FFF",
+    "activityBarBadge.background": "#608ce4",
     "activityBarBadge.foreground": "#FFFFFF",
-    
     
     // Sidebar
     // The Side Bar contains views like the Explorer and Search.
@@ -97,6 +95,7 @@
     "sideBarTitle.foreground": "#333",
     "sideBarSectionHeader.background": "#fafafa",
     "sideBarSectionHeader.foreground": "#333",
+
     // Editor Groups & Tabs
     // Editor Groups are the containers of editors. There can be up to three editor groups. A Tab is the container of an editor.
     // Multiple Tabs can be opened in one editor group.
@@ -120,21 +119,22 @@
     "editor.background": "#fff",
     "editor.foreground": "#333",
     //"editorCursor.background": "#333",
-    "editorCursor.foreground": "#526FFF",
+    "editorCursor.foreground": "#555",
     "editor.selectionBackground": "#E5E5E6",
     //"editor.selectionHighlightBackground": "#FFFFDA",
     
     // "editor.inactiveSelectionBackground": "#d70bbf",
     // "editor.wordHighlightBackground": "#fff78a7e",
     // "editor.wordHighlightStrongBackground": "#fff78a7e",
-    "editor.findMatchBackground": "#fff78a7e",
-    "editor.findMatchHighlightBackground": "#fff78a7e",
-    "editor.findRangeHighlightBackground": "#fff78a7e",
+    "editor.findMatchBackground": "#afc3d8",
+    "editor.findMatchBorder": "#666",
+    "editor.findMatchHighlightBorder": "#9D9D9F",
+    "editor.findMatchHighlightBackground": "#00000000",
     "editor.hoverHighlightBackground": "#fff78a7e",
     "editor.lineHighlightBackground": "#FFFFDA",
     "editor.lineHighlightBorder": "#FFFFDA",
     "editorLink.activeForeground": "#0366d6",
-    "editor.rangeHighlightBackground": "#fff78a7e",
+    // "editor.rangeHighlightBackground": "#fff78a7e",
     
     // Rulers, whitespace, indent-lines, line numbers
     "editorLineNumber.foreground": "#9D9D9F",
@@ -306,10 +306,10 @@
     "debugToolBar.background": "#fff",
     
     // Welcome Page
-    // "welcomePage.buttonBackground":"#ff0000",
-    // "welcomePage.buttonHoverBackground":"#ff0000",
+    "welcomePage.buttonBackground":"#608ce4",
+    "welcomePage.buttonHoverBackground":"#6f96e6",
     // "walkThrough.embeddedEditorBackground":"#ff0000",
-    
+
     // Git Colors
     "gitDecoration.modifiedResourceForeground": "#3d82c6",
     "gitDecoration.deletedResourceForeground": "#d21d00",
@@ -354,7 +354,8 @@
       "entity.other.inherited-class"
     ],
     "settings": {
-      "foreground": "#50A14F"
+      "foreground": "#606AA1",
+      "fontStyle": "underline"
     }
   },
   {
@@ -414,7 +415,8 @@
   {
     "name": "Storage Type",
     "scope": [
-      "storage.type"
+      "storage.type",
+      "storage.type.syntax"
     ],
     "settings": {
       "foreground": "#222222"
@@ -434,7 +436,7 @@
     "name": "Storage Modifier Package,storage Modifier Import",
     "scope": [
       "storage.modifier.package",
-      "storage.modifier.import"
+      "storage.modifier.import",
     ],
     "settings": {
       "foreground": "#383A42"
@@ -502,6 +504,13 @@
     }
   },
   {
+    "name": "Variable Property Other",
+    "scope": "variable.other.property",
+    "settings": {
+      "foreground": "#383A42"
+    }
+  },
+  {
     "name": "Variable Interpolation",
     "scope": [
       "variable.interpolation"
@@ -525,7 +534,7 @@
       "string"
     ],
     "settings": {
-      "foreground": "#50A14F"
+      "foreground": "#d14"
     }
   },
   {
@@ -643,7 +652,7 @@
       "support.type"
     ],
     "settings": {
-      "foreground": "#0184BC"
+      "foreground": "#458"
     }
   },
   {
@@ -652,7 +661,7 @@
       "support.function"
     ],
     "settings": {
-      "foreground": "#0184BC"
+      "foreground": "#458"
     }
   },
   {
@@ -699,7 +708,7 @@
       "entity.name.tag"
     ],
     "settings": {
-      "foreground": "#E45649"
+      "foreground": "#008080"
     }
   },
   {
@@ -708,16 +717,8 @@
       "entity.other.attribute-name"
     ],
     "settings": {
-      "foreground": "#986801"
-    }
-  },
-  {
-    "name": "Entity Other Attribute Name Id",
-    "scope": [
-      "entity.other.attribute-name.id"
-    ],
-    "settings": {
-      "foreground": "#4078F2"
+      "foreground": "#458",
+      "fontStyle": "bold"
     }
   },
   {
@@ -850,6 +851,16 @@
     "scope": "support.type.property-name",
     "settings": {
       "foreground": "#383A42"
+    }
+  },
+  {
+    "name": "Keyword Control",
+    "scope": [
+      "keyword.control"
+    ],
+    "settings": {
+      "foreground": "#222222",
+      "fontStyle": "bold"
     }
   },
   // {
@@ -1054,17 +1065,6 @@
 
   // Python
   {
-    "name": "Source Python Import Keyword",
-    "scope": [
-      "source.python keyword.control.import.python",
-      "source.python keyword.control.flow.python"
-    ],
-    "settings": {
-      "foreground": "#222222",
-      "fontStyle": "bold"
-    }
-  },
-  {
     "name": "Source Python Keyword Operator Logical Python",
     "scope": [
       "source.python keyword.operator.logical.python"
@@ -1077,8 +1077,7 @@
   {
     "name": "Source Python Entity Name Class,entity Name Type Class",
     "scope": [
-      "source.python entity.name.type.class.python",
-      "source.python entity.other.inherited-class"
+      "source.python entity.name.type.class.python"
     ],
     "settings": {
       "foreground": "#606AA1",
@@ -1299,7 +1298,8 @@
       "source.js keyword.operator.void"
     ],
     "settings": {
-      "foreground": "#A626A4"
+      "foreground": "#222",
+      "fontStyle": "bold"
     }
   },
   {
@@ -1577,18 +1577,18 @@
       "foreground": "#383A42"
     }
   },
-  {
-    "name": "JS/TS Variable Alias",
-    "scope": [
-      "variable.other.readwrite.alias.js",
-      "variable.other.readwrite.alias.ts",
-      "variable.other.readwrite.alias.jsx",
-      "variable.other.readwrite.alias.tsx"
-    ],
-    "settings": {
-      "foreground": "#E45649"
-    }
-  },
+  // {
+  //   "name": "JS/TS Variable Alias",
+  //   "scope": [
+  //     "variable.other.readwrite.alias.js",
+  //     "variable.other.readwrite.alias.ts",
+  //     "variable.other.readwrite.alias.jsx",
+  //     "variable.other.readwrite.alias.tsx"
+  //   ],
+  //   "settings": {
+  //     "foreground": "#E45649"
+  //   }
+  // },
   {
     "name": "JS/TS Constants",
     "scope": [
