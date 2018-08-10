@@ -306,8 +306,8 @@
     "debugToolBar.background": "#fff",
     
     // Welcome Page
-    "welcomePage.buttonBackground":"#608ce4",
-    "welcomePage.buttonHoverBackground":"#6f96e6",
+    // "welcomePage.buttonBackground":"#608ce4",
+    // "welcomePage.buttonHoverBackground":"#6f96e6",
     // "walkThrough.embeddedEditorBackground":"#ff0000",
 
     // Git Colors
