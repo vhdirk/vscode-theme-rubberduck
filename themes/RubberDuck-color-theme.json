@@ -340,12 +340,15 @@
     }
   },
   {
-    "name": "Entity Name Type",
+    "name": "Entity Name Type, Support Class, Meta Class",
     "scope": [
-      "entity.name.type"
+      "entity.name.type",
+      "support.class",
+      "meta.class"
+
     ],
     "settings": {
-      "foreground": "#C18401"
+      "foreground": "#808000"
     }
   },
   {
@@ -547,15 +550,6 @@
     }
   },
   {
-    "name": "String Regexp Source Ruby Embedded",
-    "scope": [
-      "string.regexp source.ruby.embedded"
-    ],
-    "settings": {
-      "foreground": "#C18401"
-    }
-  },
-  {
     "name": "String Other Link",
     "scope": [
       "string.other.link"
@@ -638,15 +632,6 @@
     }
   },
   {
-    "name": "Support Class",
-    "scope": [
-      "support.class"
-    ],
-    "settings": {
-      "foreground": "#C18401"
-    }
-  },
-  {
     "name": "Support Type",
     "scope": [
       "support.type"
@@ -719,15 +704,6 @@
     "settings": {
       "foreground": "#458",
       "fontStyle": "bold"
-    }
-  },
-  {
-    "name": "Meta Class",
-    "scope": [
-      "meta.class"
-    ],
-    "settings": {
-      "foreground": "#C18401"
     }
   },
   {
@@ -986,7 +962,15 @@
       "foreground": "#A626A4"
     }
   },
-
+  {
+    "name": "Source Cpp Storage Type Template",
+    "scope": [
+      "source.cpp storage.type.template.cpp"
+    ],
+    "settings": {
+      "foreground": "#808000"
+    }
+  },
   // Go
   {
     "name": "Source Go Storage Type String",
@@ -2033,6 +2017,15 @@
   //     "foreground": "inherit"
   //   }
   // },
+  {
+    "name": "String Regexp Source Ruby Embedded",
+    "scope": [
+      "string.regexp source.ruby.embedded"
+    ],
+    "settings": {
+      "foreground": "#C18401"
+    }
+  },
   {
     "name": "Ruby Punctuation Separator Variable",
     "scope": "punctuation.separator.variable.ruby",
